@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    background-color: hsl(0, 0%, 22%);
+    
+}
+.all{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background: rgb(52,63,78);
+    background: linear-gradient(180deg, rgba(52,63,78,1) 0%, rgba(28,30,33,1) 65%);
+    border-radius: 20px;
+    width: 350px;
+    height: 335px;
+    /* transform: translateX(500px); */
+    margin-top: 150px;
+    padding: 5px;
+}
+
+#img {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(44, 44, 44);
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+#title {
+    color: white;
+    margin: 10px;
+}
+#text {
+    color: white;
+    margin: 10px;
+    font-size: 13px;
+}
+section {
+    display: flex;
+    gap: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+#form{
+    margin: 10px 0px 10px 0px;
+    height: 60px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap:  25px;
+}
+.buttom {
+    background-color: rgb(53, 50, 50);
+    padding: 10px 15px 10px 15px;
+    width: 14%;
+    height: 80%;
+    border-radius: 100%;
+    border: none;
+    color: white;
+    
+}
+.buttom:focus{
+    background-color: rgb(255, 72, 0);
+
+}
+.buttom:hover {
+    cursor: pointer;
+    background-color: rgb(255, 72, 0);
+}
+footer {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+#submit {
+    width: 300px;
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 72, 0);
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+#submit:hover {
+    cursor: pointer;
+    background-color: rgb(255, 72, 0);
+    color: white;
+}
+.card2 {
+    background: rgb(52,63,78);
+    background: linear-gradient(180deg, rgba(52,63,78,1) 0%, rgba(28,30,33,1) 65%);
+    border-radius: 20px;
+    width: 400px;
+    height: 325px;
+    margin-top: 150px;
+    padding: 10px;
+
+    
+}
+#img2 {
+    max-width: 40%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+#answer {
+    width: 300px;
+    background-color: rgb(59, 59, 59);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 35px;
+    margin-top: 5px;
+    border-radius: 15px;
+    color: orangered;
+    font-size: 15px;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title2 {
+    color: white;
+    margin: 8px;
+}
+#text2 {
+    margin-top: -25px;
+    margin-left: 20px;
+    text-align: center;
+    color: #7d848e;
+}
+.hidden{
+    display: none;
+
+}
